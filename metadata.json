@@ -1,0 +1,6 @@
+{
+  "name": "DapurPintar AI",
+  "description": "Asisten perencanaan menu berbasis AI untuk anak kos: dapatkan variasi masakan, estimasi uang belanja, dan daftar belanja dalam satu alur.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
