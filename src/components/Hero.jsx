@@ -53,22 +53,6 @@ export const Hero = ({ onOpenAuth }) => {
                 Lihat Cara Kerja
               </a>
             </div>
-
-            {/* Value checklist markers */}
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-6 border-t border-[#dde3df] text-xs sm:text-sm text-[#5b6762]">
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-[#1f6b52] shrink-0" />
-                <span>Peralatan 1 tungku / rice cooker</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-[#1f6b52] shrink-0" />
-                <span>Kalkulasi rupiah sebelum ke pasar</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-[#1f6b52] shrink-0" />
-                <span>Eliminasi stok bumbu kosan</span>
-              </div>
-            </div>
           </div>
 
           {/* Right Column: 5 Cols (High-Fidelity Visual Asset + Swiss Info Box) */}
@@ -124,42 +108,6 @@ export const Hero = ({ onOpenAuth }) => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Full-width Metric Strip below Hero Split */}
-        <div className="mt-14 pt-8 border-t border-[#dde3df] grid grid-cols-2 md:grid-cols-4 gap-6">
-          <div>
-            <div className="text-2xl sm:text-3xl font-bold font-serif text-[#1d2623] tabular-nums">
-              Rp 12.000
-            </div>
-            <div className="text-xs sm:text-sm text-[#5b6762] mt-1">
-              Rerata biaya per porsi sehat
-            </div>
-          </div>
-          <div>
-            <div className="text-2xl sm:text-3xl font-bold font-serif text-[#1d2623] tabular-nums">
-              3 Pilihan
-            </div>
-            <div className="text-xs sm:text-sm text-[#5b6762] mt-1">
-              Menu siap pilih tiap slot makan
-            </div>
-          </div>
-          <div>
-            <div className="text-2xl sm:text-3xl font-bold font-serif text-[#1d2623] tabular-nums">
-              &lt; 20 Menit
-            </div>
-            <div className="text-xs sm:text-sm text-[#5b6762] mt-1">
-              Waktu masak kompor 1 tungku
-            </div>
-          </div>
-          <div>
-            <div className="text-2xl sm:text-3xl font-bold font-serif text-[#1d2623] tabular-nums">
-              1 Alur
-            </div>
-            <div className="text-xs sm:text-sm text-[#5b6762] mt-1">
-              Menu, estimasi biaya & belanja
             </div>
           </div>
         </div>

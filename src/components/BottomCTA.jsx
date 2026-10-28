@@ -33,14 +33,6 @@ export const BottomCTA = ({ onOpenAuth }) => {
             <ArrowRight className="w-5 h-5 text-[#1f6b52]" />
           </button>
         </div>
-
-        <div className="mt-8 text-xs text-[#e8f2ee]/80 flex items-center justify-center gap-6">
-          <span>Tanpa kartu kredit</span>
-          <span>·</span>
-          <span>Proses daftar 30 detik</span>
-          <span>·</span>
-          <span>Supabase Auth aman</span>
-        </div>
       </div>
     </section>
   );
